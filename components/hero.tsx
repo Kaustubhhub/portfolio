@@ -15,6 +15,9 @@ const Hero = () => {
                 />
             </div>
             <Navbar/>
+            <div className='absolute top-20 w-full overflow-hidden border border-white'>
+                hi
+            </div>
         </div>
     )
 }
