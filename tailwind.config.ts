@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        yesteryear: ['Yesteryear', 'cursive'],
+      },
       boxShadow: {
         vibgyor: `
           0 0 10px 2px rgba(255, 0, 0, 0.5),   /* Red */
