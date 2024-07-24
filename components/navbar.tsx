@@ -28,17 +28,21 @@ const Navbar = () => {
             <ul className="hidden md:flex gap-12">
                 <li className="cursor-pointer text-[#CBD5E1] hover:text-white" onClick={() => handleClick('hi')}>About</li>
                 <li className="cursor-pointer text-[#CBD5E1] hover:text-white" onClick={() => handleClick('hi')}>Projects</li>
-                <li className="cursor-pointer text-[#CBD5E1] hover:text-white" onClick={() => handleClick('hi')}>Resume</li>
+                <li className="cursor-pointer text-[#CBD5E1] hover:text-white" onClick={() => window.open('https://drive.google.com/file/d/1G1dAfqvopgkOgFdSXdSOt10aM1GN-Qnh/view?usp=sharing', '_blank')}>Resume</li>
             </ul>
 
 
             <div className="flex justify-center items-center gap-5">
                 <div className="cursor-pointer hidden md:block">
-                    <FaGithub className="text-3xl" />
+                    <FaGithub onClick={()=> window.open('https://github.com/kaustubhhub')} className="text-3xl" />
                 </div>
-                <button className="border cursor-pointer border-white p-1 bg-white text-black rounded-xl hover:shadow-vibgyor">
+                <button
+                    className="border cursor-pointer border-white p-1 bg-white text-black rounded-xl hover:shadow-vibgyor"
+                    onClick={() => window.location.href = 'mailto:kaustubhkumbhare02@gmail.com'}
+                >
                     <span className="p-2">Let's work</span>
                 </button>
+
 
             </div>
         </div>
