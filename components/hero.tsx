@@ -1,11 +1,11 @@
-import { cn } from '@/lib/utils'
-import React from 'react'
-import DotPattern from './magicui/dot-pattern'
-import Navbar from './navbar'
+import { cn } from '@/lib/utils';
+import React from 'react';
+import DotPattern from './magicui/dot-pattern';
+import Navbar from './navbar';
 import { BottmDock } from './bottomDock';
-import LetterPullup from "@/components/magicui/letter-pullup";
 import GradualSpacing from './magicui/gradual-spacing';
 import BlurIn from "@/components/magicui/blur-in";
+import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -13,10 +13,14 @@ const Hero = () => {
     return (
         <div>
             <div className="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-                <DotPattern
-                    width={25}
+                <AnimatedGridPattern
+                    numSquares={50}
+                    maxOpacity={0.2}
+                    duration={3}
+                    repeatDelay={0.1}
                     className={cn(
-                        "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+                        "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
+                        "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12 w-full",
                     )}
                 />
             </div>

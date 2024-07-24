@@ -4,6 +4,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Yesteryear } from '@next/font/google';
 import { cn } from "@/lib/utils";
+import GradualSpacing from "./magicui/gradual-spacing";
 const yesteryear = Yesteryear({
     subsets: ['latin'],
     weight: '400',
@@ -15,6 +16,7 @@ const Navbar = () => {
 
     return (
         <div className="z-20 flex justify-around absolute top-0 h-20 w-full border items-center bg-slate-300 bg-opacity-10 backdrop-blur-md">
+            
             <div className="flex justify-center items-center">
                 <div className={cn(yesteryear.className, "cursor-pointer text-4xl font-bold hidden md:block")}>
                     Kaustubh.
@@ -34,7 +36,7 @@ const Navbar = () => {
 
             <div className="flex justify-center items-center gap-5">
                 <div className="cursor-pointer hidden md:block">
-                    <FaGithub onClick={()=> window.open('https://github.com/kaustubhhub')} className="text-3xl" />
+                    <FaGithub onClick={() => window.open('https://github.com/kaustubhhub')} className="text-3xl" />
                 </div>
                 <button
                     className="border cursor-pointer border-white p-1 bg-white text-black rounded-xl hover:shadow-vibgyor"
