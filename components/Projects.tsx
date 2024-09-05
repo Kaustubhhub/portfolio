@@ -55,8 +55,8 @@ const PROJECTS = [
     },
     {
         name: "Anglera - Landing Page",
-        liveLink: "https://zoom-clone-smoky-three.vercel.app/",
-        githubRepo: 'https://github.com/Kaustubhhub/zoom-clone',
+        liveLink: "https://alglera.vercel.app/",
+        githubRepo: 'https://github.com/Kaustubhhub/alglera_landing_page',
         description: "A startup backed by Y-combinator",
         techStack: 'Next.js'
     },
