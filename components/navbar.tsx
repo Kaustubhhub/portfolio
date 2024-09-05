@@ -9,6 +9,7 @@ const yesteryear = Yesteryear({
     weight: '400',
 });
 
+
 const Navbar = () => {
     const router = useRouter()
     const pathname = usePathname()
@@ -55,10 +56,12 @@ const Navbar = () => {
                     onClick={() => window.location.href = 'mailto:kaustubhkumbhare02@gmail.com'}
                 >
                     <span className="p-2">Let&apos;s work</span>
+                    <span className="p-2">Let&apos;s work</span>
                 </button>
             </div>
         </div>
     );
 }
 
+export default Navbar;
 export default Navbar;
