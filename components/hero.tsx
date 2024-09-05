@@ -24,7 +24,7 @@ const Hero = () => {
                     )}
                 />
             </div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className='absolute top-[200px] w-full overflow-hidden flex flex-col justify-center'>
                 <div className='flex justify-center'>
                     <p className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic web magic with Nextjs</p>
@@ -34,9 +34,6 @@ const Hero = () => {
                         word={<>Architecting scalable solutions for modern <span className="text-blue-500">web applications</span></>}
                         className="text-center text-2xl md:text-4xl lg:text-5xl font-bold mt-4 lg:pr-[150px] lg:pl-[150px]"
                     />
-                    {/* <p className='text-center text-2xl md:text-4xl lg:text-5xl font-bold mt-4'>
-                        Architecting scalable solutions for modern <span className='text-blue-500'>web applications</span>
-                    </p> */}
                 </div>
 
                 <div className='flex justify-center pt-2'>
