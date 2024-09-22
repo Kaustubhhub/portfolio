@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li
                     className="cursor-pointer text-[#CBD5E1] hover:text-white"
-                    onClick={() => window.open('https://drive.google.com/file/d/1G1dAfqvopgkOgFdSXdSOt10aM1GN-Qnh/view?usp=sharing', '_blank')}
+                    onClick={() => window.open('https://drive.google.com/file/d/1SSHUvZ0_UOucm_HBXWYbuoyfTfqB2-Lz/view?usp=sharing', '_blank')}
                 >
                     Resume
                 </li>
