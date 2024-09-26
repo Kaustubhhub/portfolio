@@ -56,7 +56,6 @@ const Navbar = () => {
                     onClick={() => window.location.href = 'mailto:kaustubhkumbhare02@gmail.com'}
                 >
                     <span className="p-2">Let&apos;s work</span>
-                    <span className="p-2">Let&apos;s work</span>
                 </button>
             </div>
         </div>
