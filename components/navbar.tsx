@@ -45,12 +45,6 @@ const Navbar = () => {
                 >
                     Resume
                 </li>
-                <li
-                    className="cursor-pointer text-[#CBD5E1] hover:text-white"
-                    onClick={()=>{alert('coming soon!')}}
-                >
-                    Blogs
-                </li>
             </ul>
 
             <div className="flex justify-center items-center gap-5">
